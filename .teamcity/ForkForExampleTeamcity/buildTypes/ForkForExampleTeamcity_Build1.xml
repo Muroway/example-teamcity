@@ -5,7 +5,7 @@
   <settings>
     <parameters />
     <build-runners>
-      <runner id="Maven2" name="Deploy if branch on master" type="Maven2">
+      <runner id="Maven2" name="Deploy if branch is master" type="Maven2">
         <conditions>
           <contains name="teamcity.build.branch" value="master" />
         </conditions>
