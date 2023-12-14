@@ -4,7 +4,7 @@
   <description />
   <settings>
     <options>
-      <option name="artifactRules" value="target/artifact.jar" />
+      <option name="artifactRules" value="%system.teamcity.build.checkoutDir%/artifact.jar" />
     </options>
     <parameters />
     <build-runners>
